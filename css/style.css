@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #232946;
+  color: white;
+}
+
+body, button, input{
+  font-family: 'Montserrat';
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75vh;
+  position: relative;
+}
+
+.wave{
+  background-image: url(../img/wave1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 30vh;
+  background-size: cover;
+}
+
+.home .text-section h1{
+  font-size: 64px;
+  font-weight: bold;
+  width: 430px;
+  margin-bottom: 20px;
+}
+
+.home .text-section h2{
+  font-size: 48px;
+  font-weight: 500;
+  width: 430px;
+  color: #B8C1EC;
+  margin-bottom: 20px;
+}
+
+.icons-section a{
+  text-decoration: none;
+  color: #EEBBC3;
+  margin-right: 25px;
+  font-size: 54px;
+}
+
+.icons-section a:hover{
+  filter: opacity(80%);
+}
+
+.arrow-icon{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 67px;
+  color: #EEBBC3;
+}
+
+.aboutme{
+  background-color: #121629;
+}
+
+.aboutme .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.aboutme .container .profile-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutme .container .profile-section img{
+  width: 350px;
+  margin-right: 20px;
+}
+
+.aboutme .container .profile-section p{
+  width: 600px;
+  font-size: 23px;
+}
+
+
+.title-section{
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-section div{
+  background-color: #EEBBC3;
+  color: #232946;
+  padding: 10px;
+  text-align: center;
+}
+
+.highlight-blue{
+  color: #B8C1EC;
+}
+
+.projects .container{
+  padding: 50px 0px;
+}
+
+.wave2{
+  background-image: url(../img/wave2.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 30vh;
+  background-size: cover;
+}
+
+.projects-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #EEBBC3;
+  color: #232946;
+  font-weight: bold;
+}
