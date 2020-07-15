@@ -50,6 +50,20 @@
       max-width: 600px;
   }
 
+  .home .text-section h1{
+    font-size: 44px;
+    width: 350px;
+  }
+  
+  .home .text-section h2{
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .icons-section a{
+    font-size: 27px;
+  }
+
   .home .container{
     justify-content: center;
   }
@@ -80,6 +94,10 @@
 
   .projects-section img{
     width: 350px;
+  }
+
+  .arrow-icon{
+    font-size: 47px;
   }
 }
 
@@ -143,5 +161,9 @@
 
   .projects-section img{
     width: 300px;
+  }
+
+  .arrow-icon{
+    font-size: 47px;
   }
 }
