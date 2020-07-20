@@ -5,7 +5,7 @@
 
 
 <p align="center"> 
-  <a href="#result">Resultado</a> • <a href="#features">Funcionalidades</a> • <a href="#tecnologias">Tecnologias</a>
+  <a href="#features">Funcionalidades</a> • <a href="#techs">Tecnologias</a> • <a href="#result">Resultado</a>   
 </p>
 
 <h1 align="center">Portfólio Adler Rodrigues</h1>
@@ -14,7 +14,6 @@
 <h4 align="center"> 
 	⚠️Projeto em construção⚠️
 </h4>
-<br>
 
 <h3 id="features">Funcionalidades</h3> 
 
@@ -23,6 +22,11 @@
 - [x] Projetos
 - [ ] Contatos
 
+<h3 id="techs">Tecnologias</h3>
+
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 <h3 id="result">Resultado</h3>
 <p>
