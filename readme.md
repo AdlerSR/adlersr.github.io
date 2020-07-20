@@ -39,7 +39,7 @@
 <h3 id="autor">Autor</h3>
 
 <a href="https://adlerrodrigues.vercel.app/">
- <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/36713669?s=460&u=cc58fa4960c39f44fc25bc3148acaa738caea845&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 100%;" src="https://avatars2.githubusercontent.com/u/36713669?s=460&u=cc58fa4960c39f44fc25bc3148acaa738caea845&v=4" width="100px;" alt=""/>
  <br />
 </a>
 
