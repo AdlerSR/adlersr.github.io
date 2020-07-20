@@ -5,7 +5,7 @@
 
 
 <p align="center"> 
-  <a href="#features">Funcionalidades</a> • <a href="#techs">Tecnologias</a> • <a href="#result">Resultado</a>   
+  <a href="#install">Instalação</a> • <a href="#features">Funcionalidades</a> • <a href="#techs">Tecnologias</a> • <a href="#result">Resultado</a> • <a href="#autor">Autor</a>      
 </p>
 
 <h1 align="center">Portfólio Adler Rodrigues</h1>
@@ -14,6 +14,9 @@
 <h4 align="center"> 
 	⚠️Projeto em construção⚠️
 </h4>
+
+<h3 id="install">Instalação</h3> 
+<p>Esse projeto não precisa ser instalado, basta clicar <a href="https://adlerrodrigues.vercel.app/">nesse link</a> para acessar o site.</p>
 
 <h3 id="features">Funcionalidades</h3> 
 
@@ -32,3 +35,14 @@
 <p>
   <img alt="Site Preview" src="./img/preview.png" />
 </p>
+
+<h3 id="autor">Autor</h3>
+
+<a href="https://adlerrodrigues.vercel.app/">
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/36713669?s=460&u=cc58fa4960c39f44fc25bc3148acaa738caea845&v=4" width="100px;" alt=""/>
+ <br />
+</a>
+
+<b>Feito com ❤️ por Adler Rodrigues</b>
+
+[![Twitter Badge](https://img.shields.io/badge/-@adilierr-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/adilierr)](https://twitter.com/adilierr) [![Linkedin Badge](https://img.shields.io/badge/-Adler-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/adlerrodrigues/)](https://www.linkedin.com/in/adlerrodrigues/) [![Gmail Badge](https://img.shields.io/badge/-adlerdet@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adlerdet@gmail.com)](mailto:adlerdet@gmail.com)
