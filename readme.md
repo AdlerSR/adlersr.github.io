@@ -16,7 +16,7 @@
 </h4>
 
 <h3 id="install">Instalação</h3> 
-<p>Esse projeto não precisa ser instalado, basta clicar <a href="www.adler.dev.br/">nesse link</a> para acessar o site.</p>
+<p>Esse projeto não precisa ser instalado, basta clicar <a href="http://adler.dev.br/">nesse link</a> para acessar o site.</p>
 
 <h3 id="features">Funcionalidades</h3> 
 
@@ -38,7 +38,7 @@
 
 <h3 id="autor">Autor</h3>
 
-<a href="www.adler.dev.br/">
+<a href="http://adler.dev.br/">
  <img style="border-radius: 100%;" src="https://avatars2.githubusercontent.com/u/36713669?s=460&u=cc58fa4960c39f44fc25bc3148acaa738caea845&v=4" width="100px;" alt=""/>
  <br />
 <b>Feito com ❤️ por Adler Rodrigues</b>
