@@ -139,6 +139,11 @@ body, button, input{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  justify-items: center
+}
+
+.projects-section img{
+  width: 315px;
 }
 
 footer{
@@ -274,12 +279,12 @@ footer{
   }
   
   .home .text-section h2{
-    font-size: 24px;
-    width: 150px;
+    font-size: 30px;
+    width: 155px;
   }
 
   .icons-section a{
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .home .container{
@@ -317,6 +322,6 @@ footer{
   }
 
   .arrow-icon{
-    font-size: 47px;
+    font-size: 45px;
   }
 }
