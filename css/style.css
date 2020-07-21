@@ -77,6 +77,10 @@ body, button, input{
   color: #EEBBC3;
 }
 
+.arrow-icon:hover{
+  filter: opacity(80%);
+}
+
 .aboutme{
   background-color: #121629;
 }
@@ -144,6 +148,28 @@ body, button, input{
 
 .projects-section img{
   width: 315px;
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50%, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50%, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50%, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 footer{

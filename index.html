@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+  <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="Desenvolvedor front-end, utilizando as tecnologias react e react native. Entre em contato para criar o seu site ou aplicativo" />
   <meta property="og:description" 
       content="Desenvolvedor front-end, utilizando as tecnologias react e react native. Entre em contato para criar o seu site ou aplicativo"/>
@@ -41,20 +40,20 @@
   <main class="home">
     <div class="container">
       <div class="text-section">
-        <h1>Adler Santos Rodrigues</h1>
-        <h2>Desenvolvedor Front-end</h2>
-        <div class="icons-section">
+        <h1 data-anime="left">Adler Santos Rodrigues</h1>
+        <h2 data-anime="left">Desenvolvedor Front-end</h2>
+        <div class="icons-section" data-anime="top">
           <a href="https://github.com/adilier" rel="noreferrer" target="_blank" aria-label="Github Icon"><i class="fab fa-github" ></i></a>
           <a href="https://linkedin.com/in/adlerrodrigues" rel="noreferrer" target="_blank" aria-label="Linkedin icon"><i class="fab fa-linkedin-in" ></i></a>
           <a href="https://codepen.io/adilier" rel="noreferrer" target="_blank" aria-label="Codepen icon"><i class="fab fa-codepen" ></i></a>
           <a href="https://twitter.com/Adilierr" rel="noreferrer" target="_blank" aria-label="Twitter icon"><i class="fab fa-twitter" ></i></a>
         </div>
       </div>
-      <div class="image-section">
+      <div class="image-section" data-anime="right">
         <img src="./img/user.webp" alt="User Vector Image">
       </div>
       <a href="#aboutme" class="arrow-icon" aria-label="Chrevrib down icon">
-        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-down" data-anime="top"></i>
       </a>
     </div>
     <div class="wave" id="aboutme"></div>
@@ -62,13 +61,13 @@
   <section class="aboutme">
     <div class="container">
       <div class="title-section">
-        <div>
+        <div data-anime="right">
           <h2>Sobre mim</h2>
         </div>
       </div>
       <div class="profile-section">
-        <img src="./img/profile.webp" alt="Adler Rodrigues Profile Photo">
-        <p>Olá, meu nome é <span class="highlight-blue">Adler Santos Rodrigues</span>, tenho <span class="highlight-blue">18 anos</span> e atualmente <span class="highlight-blue">moro no interior de São Paulo.</span> Sou formado em técnico de informática para internet e estou cursando Análise e Desenvolvimento de Sistemas. nas horas vagas eu gosto de aumentar o meu conhecimento estudando <span class="highlight-blue">ReactJs e React Native</span>.</p>
+        <img src="./img/profile.webp" alt="Adler Rodrigues Profile Photo" data-anime="left">
+        <p data-anime="top">Olá, meu nome é <span class="highlight-blue">Adler Santos Rodrigues</span>, tenho <span class="highlight-blue">18 anos</span> e atualmente <span class="highlight-blue">moro no interior de São Paulo.</span> Sou formado em técnico de informática para internet e estou cursando Análise e Desenvolvimento de Sistemas. nas horas vagas eu gosto de aumentar o meu conhecimento estudando <span class="highlight-blue">ReactJs e React Native</span>.</p>
       </div>
     </div>
   </section>
@@ -76,22 +75,23 @@
     <div class="wave2"></div>
     <div class="container">
       <div class="title-section">
-        <div>
+        <div data-anime="right">
           <h2>Projetos</h2>
         </div>
       </div>
       <div class="projects-section">
-        <img src="./img/project.webp" alt="Projeto 1">
-        <img src="./img/project.webp" alt="Projeto 2">
-        <img src="./img/project.webp" alt="Projeto 3">
-        <img src="./img/project.webp" alt="Projeto 4">
-        <img src="./img/project.webp" alt="Projeto 5">
-        <img src="./img/project.webp" alt="Projeto 6">
+        <img src="./img/project.webp" alt="Projeto 1" data-anime="left">
+        <img src="./img/project.webp" alt="Projeto 2" data-anime="left">
+        <img src="./img/project.webp" alt="Projeto 3" data-anime="left">
+        <img src="./img/project.webp" alt="Projeto 4" data-anime="right">
+        <img src="./img/project.webp" alt="Projeto 5" data-anime="right">
+        <img src="./img/project.webp" alt="Projeto 6" data-anime="right">
       </div>
     </div>
   </section>
   <footer>
     <p>Feito com ❤️ por Adler Rodrigues</p>
   </footer>
+  <script src="./js/animation.js"></script>
 </body>
 </html>
