@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
   <meta name="description" content="Desenvolvedor front-end, utilizando as tecnologias react e react native. Entre em contato para criar o seu site ou aplicativo" />
   <meta property="og:description" 
       content="Desenvolvedor front-end, utilizando as tecnologias react e react native. Entre em contato para criar o seu site ou aplicativo"/>
@@ -29,9 +29,12 @@
   <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <script 
+    async
+    rel="preload"
     src="https://kit.fontawesome.com/1c265f2a26.js" 
+    as="script"
     crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+  <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
   <title>Adler Rodrigues | Desenvolvedor Front-end e Mobile</title>
 </head>
 <body>
@@ -41,16 +44,16 @@
         <h1>Adler Santos Rodrigues</h1>
         <h2>Desenvolvedor Front-end</h2>
         <div class="icons-section">
-          <a href="https://github.com/adilier" rel="noreferrer" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/adlerrodrigues" rel="noreferrer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://codepen.io/adilier" rel="noreferrer" target="_blank"><i class="fab fa-codepen"></i></a>
-          <a href="https://twitter.com/Adilierr" rel="noreferrer" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/adilier" rel="noreferrer" target="_blank" aria-label="Github Icon"><i class="fab fa-github" ></i></a>
+          <a href="https://linkedin.com/in/adlerrodrigues" rel="noreferrer" target="_blank" aria-label="Linkedin icon"><i class="fab fa-linkedin-in" ></i></a>
+          <a href="https://codepen.io/adilier" rel="noreferrer" target="_blank" aria-label="Codepen icon"><i class="fab fa-codepen" ></i></a>
+          <a href="https://twitter.com/Adilierr" rel="noreferrer" target="_blank" aria-label="Twitter icon"><i class="fab fa-twitter" ></i></a>
         </div>
       </div>
       <div class="image-section">
         <img src="./img/user.webp" alt="User Vector Image">
       </div>
-      <a href="#aboutme" class="arrow-icon">
+      <a href="#aboutme" class="arrow-icon" aria-label="Chrevrib down icon">
         <i class="fas fa-chevron-down"></i>
       </a>
     </div>
