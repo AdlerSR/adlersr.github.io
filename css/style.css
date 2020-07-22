@@ -17,8 +17,16 @@ body{
   color: white;
 }
 
-body, button, input{
+body, button, input, textarea{
   font-family: 'Montserrat';
+}
+
+input, textarea{
+  color: white;
+}
+
+textarea{
+  resize: none;
 }
 
 .container{
@@ -150,9 +158,64 @@ body, button, input{
   width: 315px;
 }
 
+.contact{
+  background-color: #121629;
+}
+
+.contact .container{
+  padding: 100px 0;
+}
+
+.contact-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-section p{
+  width: 500px;
+  font-size: 23px;
+  text-align: center;
+  color: #B8C1EC;
+}
+
+.contact-section .contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-section .contact-form input, .contact-section .contact-form textarea{
+  background-color: transparent;
+  padding: 10px;
+  border: solid 2px #EEBBC3;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-section .contact-form label{
+  margin-bottom: 3px;
+}
+
+.contact-section .contact-form button{
+  margin-bottom: 3px;
+  background-color: #EEBBC3;
+  padding: 10px;
+  border: solid 2px #EEBBC3;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-section .contact-form button:hover{
+  filter: opacity(80%);
+  cursor: pointer;
+}
+
 [data-anime] {
   opacity: 0;
-  transition: .5s;
+  transition: opacity  .5s, transform .5s;
 }
 
 [data-anime="left"] {
@@ -227,6 +290,19 @@ footer{
     width: 400px;
     font-size: 18px;
   }
+
+  .contact-section p{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    color: #B8C1EC;
+  }
+  
+  .contact-section .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 641px){
@@ -282,6 +358,22 @@ footer{
 
   .arrow-icon{
     font-size: 47px;
+  }
+
+  .contact-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-section p{
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-section .contact-form{
+    width: 400px;
   }
 }
 
@@ -349,6 +441,22 @@ footer{
 
   .arrow-icon{
     font-size: 45px;
+  }
+
+  .contact-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-section p{
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-section .contact-form{
+    width: 300px;
   }
 
   [data-anime="left"] {
