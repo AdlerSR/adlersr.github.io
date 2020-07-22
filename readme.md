@@ -23,7 +23,8 @@
 - [x] Tela inicial
 - [x] Sobre mim
 - [x] Projetos
-- [ ] Contatos
+- [x] Contatos
+- [ ] Enviar email com os dados do formulário
 
 <h3 id="techs">Tecnologias</h3>
 
