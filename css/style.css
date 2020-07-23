@@ -51,14 +51,14 @@ textarea{
 }
 
 .home .text-section h1{
-  font-size: 64px;
+  font-size: 54px;
   font-weight: bold;
   width: 430px;
   margin-bottom: 20px;
 }
 
 .home .text-section h2{
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   width: 430px;
   color: #B8C1EC;
@@ -78,7 +78,7 @@ textarea{
 
 .arrow-icon{
   position: absolute;
-  bottom: 0;
+  bottom: -70px;
   left: 50%;
   transform: translate(-50%, 0%);
   font-size: 67px;
@@ -156,6 +156,16 @@ textarea{
 
 .projects-section img{
   width: 315px;
+  height: 200px;
+  border-radius: 20px;
+  filter: brightness(0.6);
+  object-fit: cover;
+  transition: .3s;
+}
+
+.projects-section img:hover{
+  filter: brightness(0.9);
+  transform: translate3d(10px, -10px, 10px);
 }
 
 .contact{
@@ -163,7 +173,7 @@ textarea{
 }
 
 .contact .container{
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .contact-section{
@@ -211,6 +221,23 @@ textarea{
 .contact-section .contact-form button:hover{
   filter: opacity(80%);
   cursor: pointer;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts div{
+  margin-bottom: 20px;
+}
+
+.contacts div p{
+  color: white;
+}
+
+.contacts div p i{
+  color: #B8C1EC;
 }
 
 [data-anime] {
